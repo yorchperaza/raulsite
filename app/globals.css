@@ -5,11 +5,24 @@
   --foreground: #171717;
 }
 
-@theme inline {
+@theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* Custom Orange Palette based on #fb9d12 */
+  --color-orange-50: #fff8ed;
+  --color-orange-100: #ffefd6;
+  --color-orange-200: #fedbb0;
+  --color-orange-300: #fdbf81;
+  --color-orange-400: #fc9f45;
+  --color-orange-500: #fb9d12;
+  --color-orange-600: #ea8106;
+  --color-orange-700: #c26305;
+  --color-orange-800: #9a4c0c;
+  --color-orange-900: #7d3f0f;
+  --color-orange-950: #441f06;
 }
 
 @media (prefers-color-scheme: dark) {
